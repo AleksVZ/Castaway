@@ -63,20 +63,14 @@ h1{
                          /*section Take_your*/
 
 .Take_your{
-    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
-    margin-bottom: 33px;
-
 
 }
 .Take_your div{
     max-width: 650px;
     width: 100%;
-
-
 }
 .Take_your img{
     display: block;
@@ -85,6 +79,8 @@ h1{
 }
 .inner {
     margin-left: 60px;
+
+
 }
 .inner span{
     font-weight: 700;
