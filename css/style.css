@@ -75,7 +75,7 @@ h1{
 .Take_your img{
     display: block;
     width: 100%;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 .inner {
     margin-left: 60px;
@@ -103,15 +103,44 @@ h1{
 
 }
 /*section Latest_episodes*/
-.container.Latest_episodes{
+.container.Latest_episodes div{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
 
 
 }
-.Latest_episodes h2{
+.Latest_episodes h3{
     margin: 60px 0;
     font-weight: 400;
     font-size: 64px;
     line-height: 79px;
     letter-spacing: 2.88px;
+}
+.button{
+    background-color: #118DA8;
+    padding: 15px 20px;
+    border-radius: 4px;
+    align-self: center;
+}
+.button a{
+    display: inline-block;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.episode{
+    max-width: 1300px;
+    background-color: #000;
+    margin-bottom: 60px;
+    padding: 40px;
+    border-radius: 8px;
+}
+.episode_img{
+    max-width: 389px;
 
+}
+.episode_img div img{
+    display: block;
+    width: 100%;
 }
