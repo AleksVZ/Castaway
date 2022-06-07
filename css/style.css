@@ -13,6 +13,13 @@ a{
 li{
     list-style-type: none;
 }
+h1{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    margin-bottom: 90px;
+}
 .container{
     max-width:1300px;
     margin: auto;
@@ -31,6 +38,7 @@ li{
     align-items: center;
     padding: 43px 0;
 
+
 }
 .d-flex ul{
     display: flex;
@@ -46,9 +54,68 @@ li{
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
-
 }
 .d-flex ul li a:hover{
     color: #118DA8;
 }
 
+
+                         /*section Take_your*/
+
+.Take_your{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 33px;
+
+
+}
+.Take_your div{
+    max-width: 650px;
+    width: 100%;
+
+
+}
+.Take_your img{
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+.inner {
+    margin-left: 60px;
+}
+.inner span{
+    font-weight: 700;
+}
+.inner_socials{
+    width: 245px;
+    display: flex;
+    gap: 17px;
+    margin-left: 22px;
+
+}
+.inner h6{
+    margin-bottom: 16px;
+    margin-left: 22px;
+}
+.icons{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+
+}
+/*section Latest_episodes*/
+.container.Latest_episodes{
+
+
+}
+.Latest_episodes h2{
+    margin: 60px 0;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+
+}
