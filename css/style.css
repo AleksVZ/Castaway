@@ -102,45 +102,64 @@ h1{
     display: inline-block;
 
 }
-/*section Latest_episodes*/
+                     /*section Latest_episodes*/
+.Latest_episodes{
+    padding-top: 60px ;
+}
 .container.Latest_episodes div{
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
+    
 
 
 }
 .Latest_episodes h3{
-    margin: 60px 0;
     font-weight: 400;
     font-size: 64px;
     line-height: 79px;
     letter-spacing: 2.88px;
+    margin-bottom: 60px;
 }
 .button{
     background-color: #118DA8;
     padding: 15px 20px;
     border-radius: 4px;
     align-self: center;
-}
-.button a{
     display: inline-block;
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
 }
+.button:hover{
+    background-color: #191919;
+    border: 1px solid #118DA8;
+}
+
 .episode{
     max-width: 1300px;
     background-color: #000;
     margin-bottom: 60px;
     padding: 40px;
     border-radius: 8px;
+    display: flex;
+
 }
 .episode_img{
     max-width: 389px;
+    margin-right: 53px;
 
 }
 .episode_img div img{
     display: block;
     width: 100%;
+}
+.episode_box{
+   
+}
+.episode_box a{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
 }
