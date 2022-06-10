@@ -2,8 +2,10 @@
     padding: 0;
     margin: 0;
     font-family: 'DM Sans', sans-serif;
-    background-color: #191919;
     color: #FFFFFF;
+}
+body{
+    background-color: #191919;
 }
 a{
     text-decoration: none;
@@ -37,6 +39,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     padding: 43px 0;
+    
 
 
 }
@@ -103,22 +106,22 @@ h1{
 
 }
                      /*section Latest_episodes*/
+                     
 .Latest_episodes{
     padding-top: 60px ;
-}
-.container.Latest_episodes div{
-    display: flex;
-    justify-content: space-between;
     
-
-
+}
+.box_Latest_episodes{
+     display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
 .Latest_episodes h3{
     font-weight: 400;
     font-size: 64px;
     line-height: 79px;
     letter-spacing: 2.88px;
-    margin-bottom: 60px;
+    
 }
 .button{
     background-color: #118DA8;
@@ -134,32 +137,59 @@ h1{
     background-color: #191919;
     border: 1px solid #118DA8;
 }
-
 .episode{
-    max-width: 1300px;
     background-color: #000;
     margin-bottom: 60px;
     padding: 40px;
     border-radius: 8px;
     display: flex;
+    
 
 }
 .episode_img{
     max-width: 389px;
     margin-right: 53px;
-
+    flex-shrink: 0;
 }
-.episode_img div img{
+.episode_img img{
     display: block;
     width: 100%;
 }
 .episode_box{
-   
+    padding-top: 8px;
+
 }
-.episode_box a{
+.episode_box a:first-child{
     display: inline-block;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-
+    background: #191919;
+    padding: 0 16px;
+    border-radius: 6px;
+    margin-bottom: 48px;
 }
+.episode_box h4{
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+color: #118DA8;
+margin-bottom: 18px;
+}
+.episode_box h3{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    margin-bottom: 28px;
+}
+.episode_box p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 18px;
+}
+
+                           /* section Jacob_Paulaner */
