@@ -28,7 +28,7 @@ h1{
 
 }
 
-                              /*header*/
+ /*TODO header*/
 
 .container a img{
     display: block;
@@ -63,7 +63,7 @@ h1{
 }
 
 
-                      /*section Take_your*/
+/*TODO !section Take_your*/
 
 .Take_your{
     display: flex;
@@ -105,7 +105,7 @@ h1{
     display: inline-block;
 
 }
-                     /*section Latest_episodes*/
+/*TODO ! section Latest_episodes*/
                      
 .Latest_episodes{
     padding-top: 60px ;
@@ -192,4 +192,4 @@ margin-bottom: 18px;
     margin-bottom: 18px;
 }
 
-                           /* section Jacob_Paulaner */
+/*TODO !section Jacob_Paulaner  */
