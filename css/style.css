@@ -74,19 +74,18 @@ h1{
 .Take_your div{
     max-width: 650px;
     width: 100%;
+    margin-right: 60px;
+    flex-shrink: 0;
 }
 .Take_your img{
     display: block;
     width: 100%;
     border-radius: 8px;
 }
-.inner {
-    margin-left: 60px;
 
-
-}
 .inner span{
     font-weight: 700;
+    color: #118DA8;
 }
 .inner_socials{
     width: 245px;
@@ -106,13 +105,13 @@ h1{
 
 }
 /*TODO ! section Latest_episodes*/
-                     
+
 .Latest_episodes{
     padding-top: 60px ;
     
 }
 .box_Latest_episodes{
-     display: flex;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
@@ -143,6 +142,10 @@ h1{
     padding: 40px;
     border-radius: 8px;
     display: flex;
+}
+.episode:last-child{
+    margin-bottom: 260px;
+    
     
 
 }
@@ -193,3 +196,63 @@ margin-bottom: 18px;
 }
 
 /*TODO !section Jacob_Paulaner  */
+
+.Jacob_Paulaner{
+    display: flex;
+    margin-bottom: 201px;
+}
+.Jacob_Paulaner div:last-of-type{
+    max-width: 650px;
+    width: 100%;
+    flex-shrink: 0;
+}
+.Jacob_Paulaner img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+/*! Arrow */
+
+.Meet_Your div:first-of-type {
+    width: 112px;
+    height: 112px;
+    background: #118DA8;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+/* !_________ */
+
+
+
+.Meet_Your{
+    margin-right: 94px;
+}
+.Meet_Your h4{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+
+}
+.Meet_Your h3{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.Meet_Your p{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 33px;
+
+}
+
