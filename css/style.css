@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'DM Sans', sans-serif;
     color: #FFFFFF;
+    box-sizing: border-box;
 }
 body{
     background-color: #191919;
@@ -22,13 +23,23 @@ h1{
     letter-spacing: 3.2px;
     margin-bottom: 90px;
 }
+h4{
+
+    font-weight: 400;
+    font-size: 17px;
+}
+h3{
+    font-weight: 400;
+    font-size: 64px;
+
+}
 .container{
     max-width:1300px;
     margin: auto;
 
 }
 
- /*TODO header*/
+/*TODO        header*/
 
 .container a img{
     display: block;
@@ -71,16 +82,17 @@ h1{
     align-items: center;
 
 }
-.Take_your div{
+.Take_your div:first-child{
     max-width: 650px;
     width: 100%;
     margin-right: 60px;
-    flex-shrink: 0;
+
 }
+
 .Take_your img{
     display: block;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 14px;
 }
 
 .inner span{
@@ -104,10 +116,12 @@ h1{
     display: inline-block;
 
 }
-/*TODO ! section Latest_episodes*/
+
+/*TODO  Latest_episodes          */
 
 .Latest_episodes{
     padding-top: 60px ;
+    padding-bottom: 200px;
     
 }
 .box_Latest_episodes{
@@ -115,6 +129,8 @@ h1{
     justify-content: space-between;
     margin-bottom: 60px;
 }
+
+
 .Latest_episodes h3{
     font-weight: 400;
     font-size: 64px;
@@ -143,16 +159,12 @@ h1{
     border-radius: 8px;
     display: flex;
 }
-.episode:last-child{
-    margin-bottom: 260px;
-    
-    
 
-}
 .episode_img{
     max-width: 389px;
+    width: 100%;
     margin-right: 53px;
-    flex-shrink: 0;
+ 
 }
 .episode_img img{
     display: block;
@@ -195,7 +207,7 @@ margin-bottom: 18px;
     margin-bottom: 18px;
 }
 
-/*TODO !section Jacob_Paulaner  */
+/*TODO      Jacob_Paulaner          */
 
 .Jacob_Paulaner{
     display: flex;
@@ -204,30 +216,19 @@ margin-bottom: 18px;
 .Jacob_Paulaner div:last-of-type{
     max-width: 650px;
     width: 100%;
-    flex-shrink: 0;
+    margin-left: 94px;
+
 }
 .Jacob_Paulaner img{
     display: block;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 14px;
 }
-/*! Arrow */
-
-.Meet_Your div:first-of-type {
-    width: 112px;
-    height: 112px;
-    background: #118DA8;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    position: relative;
-    
-}
-/* !_________ */
-
-
 
 .Meet_Your{
-    margin-right: 94px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
 }
 .Meet_Your h4{
     font-family: 'DM Sans';
@@ -256,3 +257,77 @@ margin-bottom: 18px;
 
 }
 
+
+
+/*TODO      Subscribe for updates */
+
+.Subscribe_Wrapper{
+    background-color: #000;
+    margin-bottom: 200px;
+    padding: 60px 60px 75px 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+
+}
+.Subscribe_Wrapper h4{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    line-height: 27px;
+    color: #118DA8;
+
+}
+.Subscribe_Wrapper h3{
+    font-family: 'DM Sans';
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+
+}
+.Subscribe_Wrapper form{
+    max-width: 522px;
+    width: 100%;
+}
+.Subscribe_Wrapper form div{
+
+}
+.Subscribe_Wrapper form input{
+    width: 100%;
+    background: #191919;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 26px 19px;
+    margin-bottom: 20px;
+    border: 1px solid #191919;
+    
+}
+.Subscribe_Wrapper form input:hover{
+    border: 1px solid  #118DA8;
+
+}
+.Subscribe_Wrapper form input::placeholder{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+   
+}
+
+
+
+.Subscribe_Wrapper form button{
+    background-color: #118DA8;
+    padding: 15px 20px;
+    border-radius: 4px;
+    align-self: center;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.Subscribe_Wrapper form button:hover{
+    background-color: #191919;
+    border: 1px solid #118DA8;
+}
