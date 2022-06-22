@@ -147,6 +147,7 @@ h3{
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
+    border: 1px solid #090a0a;
 }
 .button:hover{
     background-color: #191919;
@@ -289,9 +290,7 @@ margin-bottom: 18px;
     max-width: 522px;
     width: 100%;
 }
-.Subscribe_Wrapper form div{
 
-}
 .Subscribe_Wrapper form input{
     width: 100%;
     background: #191919;
@@ -304,6 +303,7 @@ margin-bottom: 18px;
 }
 .Subscribe_Wrapper form input:hover{
     border: 1px solid  #118DA8;
+    
 
 }
 .Subscribe_Wrapper form input::placeholder{
@@ -312,6 +312,7 @@ margin-bottom: 18px;
     font-size: 24px;
     line-height: 29px;
     color: rgba(255, 255, 255, 0.7);
+    
    
 }
 
@@ -319,15 +320,51 @@ margin-bottom: 18px;
 
 .Subscribe_Wrapper form button{
     background-color: #118DA8;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 4px;
     align-self: center;
     display: inline-block;
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
+    border: 1px solid #090a0a;
 }
 .Subscribe_Wrapper form button:hover{
     background-color: #191919;
     border: 1px solid #118DA8;
+    box-sizing: border-box;
+}
+
+/*TODO     Comment   */
+
+.comment {
+    background: #000;
+    border-radius: 8px;
+    max-width: 423px;
+    width: 100%;
+}
+.comment p{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.comment figcaption{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.list_item li {
+    display: inline-block;
+    margin-right: 6px;
+}
+.fa-solid{
+    content: "";
+    font-size: 20px;
+    color: #FCFF51;
+
 }
