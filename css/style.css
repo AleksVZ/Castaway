@@ -355,21 +355,22 @@ margin-bottom: 18px;
 }
 
 
-.comment p{
+.comment q{
     font-family: 'DM Sans';
     font-weight: 400;
     font-size: 36px;
     line-height: 43px;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    
 
 }
-.comment figcaption{
+.comment p{
     font-family: 'DM Sans';
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
 }
 
 .list_item li {
